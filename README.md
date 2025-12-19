@@ -1,16 +1,29 @@
-# React + Vite
+# Moodify 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Moodify is a modern web app that helps users discover music based on their mood. Users can select how they feel and get personalized music recommendations to enhance their day. The app is designed with a calm and intuitive interface to create a relaxing experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Mood-based Music Recommendation:** Select from moods like Calm, Sad, Energetic, Lonely, Happy, and Focus to get music suggestions.
+- **Interactive Mood Cards:** Clickable cards with images, text, and buttons for a visually engaging experience.
+- **Responsive Design:** Works perfectly on desktop and mobile devices.
+- **Hover Effects:** Smooth animations when interacting with mood cards.
+- **Background Images:** Each mood card has a unique background to enhance the mood experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Tailwind CSS
+- **API Integration:** Last.fm API for fetching music recommendations
+- **Styling & UI:** Tailwind CSS for responsive design, hover effects, and layout
+
+---
+
+## Installation
+Clone the repository:
+   git clone https://github.com/your-username/moodify.git
+npm install
+
