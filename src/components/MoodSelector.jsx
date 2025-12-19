@@ -21,13 +21,13 @@ export default function MoodSelector() {
             {/* Image */}
             <div className="relative mb-6">
               <div className="absolute -inset-4 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full opacity-20 blur-xl animate-pulse"></div>
-              <div className="relative w-32 h-32 rounded-full border-4 border-white shadow-xl flex items-center justify-center bg-white">
-                <img
-                  src={mood.image}
-                  alt={mood.alt}
-                  className="w-20 h-20 object-contain hover:scale-110 transition-transform"
-                />
-              </div>
+              <div className="relative w-39 h-39 rounded-full border-4 border-white shadow-xl bg-green-400">
+              <img
+                src={mood.image}
+                alt={mood.alt}
+                className="w-full h-full object-cover rounded-full bg-amber-100 hover:scale-110 transition-transform"
+            />
+                </div>
             </div>
 
             {/* Text */}
