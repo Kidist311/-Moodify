@@ -8,21 +8,15 @@ export default function MoodSelector() {
 
 
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-emerald-900 via-emerald-700 to-emerald-500 py-36 px-4">
-      {/* Title */}
-      <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">
-        Pick Your Vibe 🎚️
-      </h2>
-      <p className="text-pink-200 text-lg mb-12 text-center max-w-2xl">
-        Choose your mood and let Moodify recommend the perfect music for you 🎶
-      </p>
-
+    <div   className="w-full  flex flex-col items-center justify-center  py-16 px-4">
+        
       {/* Mood Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
         {moods.map((mood) => (
           <div
             key={mood.id}
             className={`${mood.bgColor} rounded-2xl shadow-2xl p-6 flex flex-col items-center border-2 ${mood.borderColor} transform hover:scale-[1.03] transition-all duration-300`}
+            
           >
             {/* Image */}
             <div className="relative mb-6">
@@ -54,7 +48,7 @@ export default function MoodSelector() {
                 }
                 setRecommendedMusic(songs);
               }}
-              className={`${mood.buttonColor} text-white font-bold py-3 px-6 rounded-full w-full shadow-lg hover:shadow-xl transition`}
+              className={`${mood.buttonColor} text-white font-bold py-3 px-6 rounded-full hover:shadow-xl transition`}
             >
               {mood.buttonText} 🎵
             </button>

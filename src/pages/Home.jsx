@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <div
-        className="w-full h-screen bg-cover bg-center"
+        className="w-full min-h-scree bg-cover bg-center"
         style={{
           backgroundImage: "url('/images/moodify-bg.png')",
         }}
