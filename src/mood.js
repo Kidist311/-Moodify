@@ -1,7 +1,7 @@
 const moods = [
     {
         id: 1,
-        image: "/calm.png",
+        image: "/icons/calm.png",
         alt: "Calm",
         title: "Calm Vibes 🌿",
         description: "Slow breaths, soft to hear, quiet mind, gentle melodies.",
@@ -26,7 +26,7 @@ const moods = [
     },
     {
       id: 3,
-      image: "/Energy.png",
+      image: "/icons/energy.png",
       alt: "Energy",
       title: "Fire & Fury Mode 🔥",
       description: "Channel that anger into some high-energy tunes.",
@@ -39,7 +39,7 @@ const moods = [
     
     {
       id: 5,
-      image: "/lonely.png",
+      image: "/icons/lonely.png",
       alt: "Lonely",
       title: "Lonely Nights 🌙",
       description: "Find comfort in melodies that understand solitude.",
@@ -63,7 +63,7 @@ const moods = [
       },
     {
       id: 6,
-      image: "/focus.png",
+      image: "/icons/focus.png",
       alt: "Focus",
       title: "Focus Mode 🎧",
       description: "Lock in. Deep focus. No distractions. Promodoro.",
